@@ -13,6 +13,5 @@ namespace MvcMovie.Data
 
         public DbSet<Movie> Movie { get; set; }
 
-        public DbSet<MvcMovie.Models.Phone> Phone { get; set; }
     }
 }
